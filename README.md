@@ -1,0 +1,2 @@
+# CheatsheetsGenerator
+Minimalist cheatsheets Generator
