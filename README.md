@@ -25,21 +25,23 @@ Version 1.x.x :
 
 ### Data sample
 Common cheatsheets are composed of `word + minimal definition` pairs, `image`, `code` sample, `section title (h3)`, `section footnote`, grouped by category, creating semantic `block`. The document has an header containing the topic's `title`. Each of these elements has specific styles and color, while bottom level row can alternate in background-color to increase readability.
+
 ```
-{ section: "MacroStructure", class: "row-title", item: "Page's structure", definition:"basic structural blocks"},
-{ section: "MacroStructure", class: "row-text", item: "<head>"   , definition:"contains meta data about page & call for resources"},
-{ section: "MacroStructure", class: "row-text", item: "<body>"   , definition:"top semantic block, contains whole page"},
-{ section: "MacroStructure", class: "row-text", item: "<header>" , definition:"or <i>topbar</i>, identifies top of page"},
-{ section: "MacroStructure", class: "row-text", item: "<sider>"  , definition:"identifies left or right of page"},
-{ section: "MacroStructure", class: "row-text", item: "<content>", definition:"identifies core content of page"},
-{ section: "MacroStructure", class: "row-text", item: "<footer>" , definition:"identifies bottom of page"},
-{ section: "Blocks", class: "row-title", item: "HTML block elements", definition:"basic structural blocks in html"},
-{ section: "Blocks", class: "row-text", item: "<div>", definition:"division, basic structural block"},
-{ section: "Blocks", class: "row-text", item: "<p>", definition:"paragraph"},
-{ section: "Blocks", class: "row-text", item: "<span>", definition:"span"},
-{ section: "Blocks", class: "row-text", item: "<text>", definition:"text element"},
-{ section: "MinimalHTML5", class: "row-title", item: "HTML5 template", definition:"the shortest valid HTML5 code" },
-{ section: "MinimalHTML5", class: "row-code", item: `
+{ section: "MacroStructure", class: "row h2", item: "Page's structure", definition:"basic structural blocks"},
+{ section: "MacroStructure", class: "row image def-hidden", item: "./img/page_structure.png", definition: "classic structure of a page with body containing topbar, content, footer"},
+{ section: "MacroStructure", class: "row def-display", item: "<head>"   , definition:"contains meta data about page & call for resources"},
+{ section: "MacroStructure", class: "row def-display", item: "<body>"   , definition:"top semantic block, contains whole page"},
+{ section: "MacroStructure", class: "row def-display", item: "<header>" , definition:"or <i>topbar</i>, identifies top of page"},
+{ section: "MacroStructure", class: "row def-display", item: "<sider>"  , definition:"identifies left or right of page"},
+{ section: "MacroStructure", class: "row def-display", item: "<content>", definition:"identifies core content of page"},
+{ section: "MacroStructure", class: "row def-display", item: "<footer>" , definition:"identifies bottom of page"},
+{ section: "Blocks", class: "row  h2", item: "HTML block elements", definition:"basic structural blocks in html"},
+{ section: "Blocks", class: "row def-display", item: "<div>", definition:"division, basic structural block"},
+{ section: "Blocks", class: "row def-display", item: "<p>", definition:"paragraph"},
+{ section: "Blocks", class: "row def-display", item: "<span>", definition:"span"},
+{ section: "Blocks", class: "row def-display", item: "<text>", definition:"text element"},
+{ section: "MinimalHTML5", class: "row h2", item: "HTML5 template", definition:"the shortest valid HTML5 code" },
+{ section: "MinimalHTML5", class: "row code def-hidden", item: `
     <html>
       <head><meta charset="utf-8">
       <title>Page's Title !</title>
