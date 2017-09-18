@@ -1,5 +1,5 @@
 # CheatsheetsGenerator
->Disclaimer : this repository is a project prpposal, no code have been done so far.
+>Disclaimer : this repository is a project proposal, no code have been done so far.
 
 The **Online Cheatsheets Generator** would be a website where you can enter vocabulary, images and code samples in order to create elegant, efficient and powerful cheatsheets about a given topic.
 
@@ -61,10 +61,9 @@ Common cheatsheets are composed of `word + minimal definition` pairs, `image`, `
 
 ```
 
+### Annotated example
 
 ![Cheatsheets_principles_renewed](https://raw.githubusercontent.com/cricodeclub/CheatsheetsGenerator/master/img/cheatsheet-principles-reviewed.png)
-
-
 
 ### Contributors
 - You !?
