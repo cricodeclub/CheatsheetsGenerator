@@ -59,5 +59,10 @@ Common cheatsheets are composed of `word + minimal definition` pairs, `image`, `
 
 ```
 
+
+![Cheatsheets_principles_renewed](https://raw.githubusercontent.com/cricodeclub/CheatsheetsGenerator/master/img/cheatsheet-principles-reviewed.png)
+
+
+
 ### Contributors
 - You !?
