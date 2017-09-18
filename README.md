@@ -49,12 +49,12 @@ Common cheatsheets are composed of `word + minimal definition` pairs, `image`, `
       <link rel="stylesheet" href="/css/styles.css">
       </head>
     <body>
-      <div id="header">Topbar</div>
-      <div id="main">
-          <div id="siderLeft">Left menu !</div>
-          <div id="content">Content !</div>
-      </div>
-      <div id="footer">Footer !</div>
+      <header>Topbar</header>
+      <aside>Left menu !</aside>
+      <main>
+          <section id="content">Content !</section>
+      </main>
+      <footer>Footer !</footer>
     </body>
     </html>
   `, definition:"To use: copy and paste" },
